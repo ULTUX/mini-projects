@@ -43,7 +43,6 @@ class DNA {
                 this.vectors[i] = vector;
             } else this.vectors[i] = newDna[i];
         }
-
     }
 
     crossOver(otherDna) {

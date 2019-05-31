@@ -14,8 +14,8 @@ class Rocket {
         let fitness = Math.sqrt(Math.pow(this.vector.x - goal.x, 2) + Math.pow(this.vector.y - goal.y, 2));
         if (this.vector.x > goal.x + 5 || this.vector.x > goal.x - 5 ||
             this.vector.y > goal.y + 5 || this.vector.y > goal.y - 5) {
-            fitness -= 20;
-            if (this.crashed) fitness += 50;
+            fitness -= 40;
+            if (this.crashed) fitness += 60;
         }
         this.fitness = 1 / fitness;
     }
