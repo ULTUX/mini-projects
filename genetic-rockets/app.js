@@ -14,8 +14,8 @@ let lifeTime = 200;
 let maxForce = 0.5;
 let goal;
 let isready = true;
-let fullMutationRate = 0.02;
-let partlyMutationRate = 0.003;
+let fullMutationRate = 0.01;
+let partlyMutationRate = 0;
 let startV = 0;
 let rectangle;
 
