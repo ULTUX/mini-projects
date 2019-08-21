@@ -3,7 +3,7 @@ let cities = [];
 function setup() {
     createCanvas(500, 500);
     background(0);
-    var amount = 50;
+    var amount = 20;
     for (let i = 0; i < amount; i++) {
         cities.push(createVector(random(width), random(height)));
     }
